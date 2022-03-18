@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './styles/doctorpage.css';
 function DoctorPage() {
   const [getpatients, setPatients] = useState()
@@ -22,24 +23,34 @@ function DoctorPage() {
   }, [getpatients])
 
   return (
+    <body >
+      <header >
+        <nav>
+          <ul>
+            <li><Link to="/mainpatient">Home</Link></li>
+            <li><Link to="/information">COVID-19 prevention</Link></li>
+            <li><Link to="/homepage">Log out</Link></li>
+          </ul>
+        </nav>
+      </header>
     <div>
       <table >
         <tr>
           <th>Temperature</th>
           <th>Saturation</th>
           <th>Cough</th>
-          <th>Score</th>
-          <th>Score</th>
+          
         </tr>
         {getpatients && getpatients.map(getpatient =>
           <tr>
             <td>{getpatient && getpatient.temperature}</td>
             <td>{getpatient && getpatient.saturation}</td>
             <td>{getpatient && getpatient.cough}</td>
-            <td>{getpatient && getpatient.score}</td>
+      
           </tr>)}
       </table>
     </div>
+    </body>
   )
 }
 export default DoctorPage;
