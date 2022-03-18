@@ -1,0 +1,29 @@
+.body-home{
+    height: 125vh;
+    background-image: url('https://www.infectiousdiseaseadvisor.com/wp-content/uploads/sites/16/2021/11/COVID19.Illustration_G_1267087443.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+ .intro-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  } 
+iframe {
+    margin-top: 2rem;
+    max-width: 30rem;
+    border-top: 40px groove var(--primary-color);
+    border-bottom: 40px groove var(--primary-color);
+    border-right: 28px solid var(--secondary-color);
+    border-left: 28px solid var(--secondary-color);
+  }
+  .hero{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7rem;
+    max-width: 1100px;
+    margin: 2rem auto -6rem;
+}

@@ -1,0 +1,35 @@
+header img {
+    height: 80px;
+}
+.body-main {
+    height: 125vh;
+    background-image: url('https://www.mass.gov/files/2021-01/People-Masks_Group_Light-Blue_768x576_0.png');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+main {
+    color:rgb(12, 11, 11);
+    text-align: center;   
+}
+header {
+    background-color: rgb(93, 66, 97);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+}
+header li a {
+    color: white;
+    text-decoration: none;
+}

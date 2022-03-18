@@ -1,0 +1,23 @@
+table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+th, td {
+    padding: 20px;
+  }
+td {
+    text-align: center;
+  }
+  td {
+    
+    border: 3px solid purple;
+  }
+  th{
+    border: 3px solid purple;
+  }
