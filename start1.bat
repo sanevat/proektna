@@ -1,0 +1,2 @@
+cd covidtracker
+npm start
